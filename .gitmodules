@@ -1,0 +1,6 @@
+[submodule "plugins/sfMelodyPlugin"]
+	path = plugins/sfMelodyPlugin
+	url = git://github.com/chok/sfMelodyPlugin.git
+[submodule "plugins/sfDoctrineOAuthPlugin"]
+	path = plugins/sfDoctrineOAuthPlugin
+	url = git://github.com/chok/sfDoctrineOAuthPlugin.git

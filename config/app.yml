@@ -1,0 +1,25 @@
+all:
+  melody:
+    create_user: true
+    facebook:
+      key:  xxxx
+      secret: xxxx
+      callback: "@melody_facebook"
+      scope: [publish_stream, email]
+      aliases:
+        friends: me/friends
+      user:
+        email_address: 
+          call: me
+          path: email 
+          key: true
+        username: 
+          call: me
+          path: id
+          prefix: Facebook_
+        first_name:
+          call: me
+          path: first_name
+        last_name: 
+          call: me
+          path: last_name
