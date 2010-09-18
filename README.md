@@ -10,6 +10,8 @@
   
   sf generate:module melody melody
   
+  make symbolic link with symfony lib dir in lib/vendor/symfony
+  
   git init
   
   git submodule add git://github.com/chok/sfMelodyPlugin.git plugins/sfMelodyPlugin
