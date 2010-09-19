@@ -2,8 +2,8 @@ all:
   melody:
     create_user: true
     facebook:
-      key:  xxxx
-      secret: xxxx
+      key:  xxx
+      secret: xxx
       callback: "@melody_facebook"
       scope: [publish_stream, email]
       aliases:

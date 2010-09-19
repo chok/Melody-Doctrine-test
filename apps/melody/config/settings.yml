@@ -35,3 +35,5 @@ all:
     use_database:           true
     enabled_modules:
       - sfMelody
+      - default
+      - sfGuardAuth
